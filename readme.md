@@ -1,6 +1,9 @@
 ### Installation
 
-* Clone the repo with git clone https://github.com/RPSingh0/nodeImageToText
+* Clone the repo with 
+```bash
+> git clone https://github.com/RPSingh0/nodeImageToText
+```
 * Open the folder in vscode 
 * Install the packages with
 

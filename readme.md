@@ -2,13 +2,13 @@
 
 * Clone the repo with 
 ```bash
-> git clone https://github.com/RPSingh0/nodeImageToText
+git clone https://github.com/RPSingh0/nodeImageToText
 ```
 * Open the folder in vscode 
 * Install the packages with
 
 ```bash
-> npm install
+npm install
 ```
 * Put the image files (.jpg, .png, .jpeg) under the folder named `images` in same directory
 * The file system should look something like this
@@ -25,17 +25,17 @@
 * Open terminal and execute
 
 ```bash
-> node getTextFromImage.js
+node getTextFromImage.js
 ```
 
 * On success, we'll see
 ```bash
-> node getTextFromImage.js
-> Done extracting text!
+node getTextFromImage.js
+Done extracting text!
 ```
 
 * On error, we'll see
 ```bash
-> node getTextFromImage.js
-> Error processing images, got: {error.message}
+node getTextFromImage.js
+Error processing images, got: {error.message}
 ```

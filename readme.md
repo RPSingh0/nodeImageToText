@@ -14,7 +14,7 @@ npm install
 * The file system should look something like this
 ```
 📁imageOCR
-└── getTextFromImage.js
+└── index.js
 └── 📁images
     └── imageOne.jpg
     └── imageTwo.jpg
@@ -25,17 +25,19 @@ npm install
 * Open terminal and execute
 
 ```bash
-node getTextFromImage.js
+node index.js
+
+# -or-
+
+npm run extract-text
 ```
 
 * On success, we'll see
 ```bash
-node getTextFromImage.js
 Done extracting text!
 ```
 
 * On error, we'll see
 ```bash
-node getTextFromImage.js
 Error processing images, got: {error.message}
 ```
